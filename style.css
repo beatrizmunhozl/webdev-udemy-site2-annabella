@@ -1,0 +1,65 @@
+body {
+    background: #d2d2c1 url(./assets/images/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+    color: #242423;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 1.3rem;
+    color: #666658;
+}
+.main {
+    border: 1px solid #36352d;
+    flex-basis: 1;
+    min-width: 600px;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+img {
+    width: 100%;
+}
+.menu-main {
+    background: #c5c5b2;
+    padding: 18px;
+    text-align: center;
+    
+}
+.menu-main > a {
+    font-weight: 600;
+    color: #242423;
+    padding: 0 22px;
+    text-decoration: none;
+    transition: .3s;
+}
+.menu-main > a:hover {
+    text-decoration:underline;
+}
+.menu-main > a:not(:last-child) {
+    border-right: 2px solid #36352d;
+}
+.conteudo {
+    padding: 22px;
+    text-align: justify;
+    background: #e8e8d9;
+    
+}
+.centralizar {
+    text-align: center;
+}
+.img-campanha{
+    width: auto;
+    border: 10px solid #c3c3ae;
+}
+
+.contato {
+    box-sizing: border-box;
+    padding: 22px;
+    background: #e4e4d4;
+    line-height: 8px;
+}
+.contato span {
+    font-weight: 700;
+}
